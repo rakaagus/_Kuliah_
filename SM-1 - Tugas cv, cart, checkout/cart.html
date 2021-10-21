@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+</head>
+<body style="margin: 0;">
+
+    <!--- Navbar --->
+    <nav style="background-color: #dddddd; padding-top: 10px; padding-bottom: 10px;">
+
+        <!-- Container Display flex Navbar -->
+        <div style="display: flex;">
+
+            <!-- Left Navbar -->
+            <h2 style="margin-left: 15px;">Its'shooping Shop</h2>
+            <div style="margin-top: 10px; justify-content: left;">
+                <ul style="display: flex; list-style: none; gap: 10px; ;">
+                    <li>
+                        <a href="#" style="text-decoration: none">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" style="text-decoration: none">Current Events</a>
+                    </li>
+                    <li>
+                        <a href="#" style="text-decoration: none">Contactus</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- End Left Navbar -->
+
+            <!-- Right Navbar -->
+            <div style="margin-top: 10px; margin-left: 600px;">
+                <ul style="display: flex; list-style: none; gap: 10px;">
+                    <li>
+                        <a href="#" style="text-decoration: none; color: black;"><i class="fas fa-search"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" style="text-decoration: none; color: black;"><i class="fas fa-shopping-cart"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" style="text-decoration: none; color: black;">Cart(1)</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- End Right Navbar -->
+
+        </div>
+        <!-- End Container Display flex Navbar -->
+    </nav>
+    <!-- End of navbar -->
+
+    <!-- Container Your Cart -->
+    <div style="padding-top: 55px; padding-left: 22px;">
+        <h1 style="font-weight: normal;">You Cart</h1>
+    </div>
+    <!-- End Container Your Cart -->
+    
+    <!-- Container display flex content -->
+    <div style="display: flex; padding-left: 22px; padding-bottom: 200px; gap: 40px;">
+        <!-- Tabel LeftSide -->
+        <table style="width: 50%; border-collapse: collapse;">
+                <thead>
+                    <tr>
+                        <th align="left" style="border-top:1px solid black; border-bottom: 1px solid black;">Price</th>
+                        <th align="left" style="border-top:1px solid black; border-bottom: 1px solid black;">Item</th>
+                        <th align="left" style="border-top:1px solid black; border-bottom: 1px solid black;">Quantity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="display: flex; align-items: center;">
+                            <img width="200" src="https://dynamic.zacdn.com/5pJh5XSLxDMcCJxt7bdOhh5K4X4=/fit-in/346x500/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/osella-kids-2541-6954772-1.jpg" alt="">
+                            <p>Baju</p>
+                        </td>
+                        <td><b>$20.00</b></td>
+                        <td>
+                            <select name="" id="">
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                            </select>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3" align="right" style="border-top:1px solid black; border-bottom: 1px solid black;">Subtital: <b>$20.00</b></td>
+                    </tr>
+                </tfoot>
+        </table>
+        <!-- End Tabel LeftSide -->
+
+        <!-- Table Right Side -->
+        <div style="justify-content: right; width: 300px; height: 300px; background-color: #dddddd; border-radius: 10px;">
+            <div style="padding-left:30px;">
+                <h4 style="font-weight: bold;">Summary(1 Items)</h4>
+                <table border="0" style="width:60%;">
+                    <tbody>
+                        <tr>
+                            <td scope="row"><b>Subtotal</b> </td>
+                            <td colspan="2" align="right"><b>$20.00</b></td>
+                        </tr>
+                        <tr>
+                            <td scope="row"><b>Shipping</b></td>
+                            <td colspan="2" align="right"><b>-</b></td>
+                        </tr>
+                        <tr>
+                            <td scope="row"><b>Est. Toxes</b></td>
+                            <td colspan="2" align="right"><b>-</b></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3"><hr></td>
+                        </tr>
+                        <tr>
+                            <td><b>Total</b></td>
+                            <td colspan="2" align="right"><b>$20.00</b></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <form action=""">
+                                    <input type="submit" value="Checkout" style="background-color: blue; width: 200px; border: 3px solid black; color: white;">
+                                </form>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- ENd Table Rightside -->
+
+    </div>
+    <!-- End Container display flex content -->
+        
+       
+        
+   
+    <!-- Container Footer -->
+    <footer style="background-color: white; padding-top: 10px; padding-bottom: 10px; border-top: 3px solid black;">
+        <!-- Container Flex Footer -->
+        <div style="display: flex;">
+            
+            <!-- Leftside Footer -->
+            <ul style="list-style: none;">
+                <li>
+                <h4>Its'shooping Shop</h4>
+                <ul style="display: flex; list-style: none; gap: 10px; margin-top: -13px; margin-left: -30px;">
+                    <li style="font-size: 35px;"><i class="fab fa-cc-visa" style="color: #dddddd;"></i></li>
+                    <li style="font-size: 35px;"><i class="fab fa-cc-visa" style="color: #dddddd;"></i></li>
+                    <li style="font-size: 35px;"><i class="fab fa-cc-visa" style="color: #dddddd;"></i></li>
+                </ul>
+                </li>
+            </ul>
+            
+       
+           
+            <ul style="display: flex; list-style: none; gap: 10px; margin-top: 40px;">
+                <li>
+                    <a href="#" style="text-decoration: none">Credits</a>
+                </li>
+                <li>
+                    <a href="#" style="text-decoration: none">Terms of Service</a>
+                </li>
+                <li>
+                    <a href="#" style="text-decoration: none">Blog Index</a>
+                </li>
+            </ul>
+            <!-- End Leftside Footer -->
+
+            <form action="checkout.html" style="margin-left: 400px;">
+                <label for="Email"><h4 style="font-weight: normal;"><b>Stay In Touch!Join our Newsleter</b></h4></label>
+                <input type="email" name="Email" id="" placeholder="Enter Email" style="border: 4px solid black; height: 20px; width: 217.5px; z-index: 1; margin-top: -40px;">
+                <button style="margin-left: -119.1px; border: 1.5px solid grey; background-color: grey; color: white; height: 22px; width: 115px; z-index: 2; ">Subscribe</button>
+            </form>       
+
+         </div>
+         <!-- End Container Flex Footer -->
+    </footer>
+    <!-- End Container Footer -->
+</body>
+</html>

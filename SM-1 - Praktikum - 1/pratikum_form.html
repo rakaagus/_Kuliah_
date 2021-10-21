@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="form-success.html">
+        <h1>Black Goose Bistro | Pizza-On Demand</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil necessitatibus omnis illum cumque perspiciatis, maiores optio animi impedit quas laboriosam totam, sequi nemo commodi amet dolorem ex provident eaque eos!</p>
+        <fieldset style="border: 0;">
+            <legend>Your Information</legend>
+
+            <!--- Input name text --->
+            <div>
+                <label for="nama">Name: </label><br>
+                <input type="text" name="" id="nama" required>
+            </div>
+            <!--- End Input text --->
+
+            <br>
+
+            <!--- Input text --->
+            <div>
+                <label for="address">Address: </label><br>
+                <input type="text" name="" id="address" required>
+            </div>
+            <!--- End Input name text --->
+
+            <br>
+
+            <!--- Input number --->
+            <div>
+                <label for="Email">Telepon Number: </label><br>
+                <input type="number" name="" id="Email" required>
+            </div>
+            <!--- End Input number --->
+
+            <br>
+
+            <!--- Input email --->
+            <div>
+                <label for="Email">Email: </label><br>
+                <input type="email" name="" id="Email" required>
+            </div>
+            <!--- End Input email --->
+
+            <br>
+
+            <!-- textarea input -->
+            <div>
+                <label for="delevery-intruction">Delevery Intruction: </label><br>
+                <textarea name="" id="delevery-intruction" cols="30" maxlength="400" rows="10" placeholder="No More Than 400 Characters Long" required></textarea>
+            </div>
+            <!-- end textarea input -->
+
+
+        </fieldset>
+        <fieldset style="border: 0;">
+            <legend><b>Desain your Dream pizza </b> <br> Pizza Spec</legend>
+
+            <div title="Container Crush">
+                    <h4 style="font-weight: normal;">Crust (Choose One): </h4>
+                <div>
+                    <input type="radio" name="radio" id="">
+                    <label for="">Classic White</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="radio" id="">
+                    <label for="">Multigrain</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="radio" id="">
+                    <label for="">Cheese-stud Crust</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="radio" id="">
+                    <label for="">Gluten Free</label>
+                </div>
+            </div>
+
+            <div title="Container Topping">
+                    <h4 style="font-weight: normal;">Topping (Choose As Many You Want): </h4>
+                <div>
+                    <input type="checkbox" name="" id="" checked>
+                    <label for="">Red Sauce</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" name="" id="">
+                    <label for="">White Sauce</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" name="" id="">
+                    <label for="">White Sauce</label>
+                </div>
+            </div>
+        </fieldset>
+
+        <div>
+            <label for="how-many-pizza">Number <br> How Many Pizza: </label>
+            <select name="" id="how-many-pizza" required>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">6</option>
+                <option value="">7</option>
+                <option value="">8</option>
+                <option value="">9</option>
+                <option value="">10</option>
+            </select>
+        </div>
+        
+        <br>
+
+        <input type="submit" value="Bring Me A Pizza">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
