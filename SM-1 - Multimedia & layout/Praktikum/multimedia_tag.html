@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>An Inline Frame</h1>
+    <iframe src="glossary.html" width="400" height="250" frameborder="0">
+        Read the <a href="glossary.html">glossary</a>
+    </iframe>
+
+    <object data="movies/hekboy.mov" type="vidio/quicktime" width="320" height="256">
+        <param name="autostart" value="false">
+        <param name="controller" value="true">
+    </object>
+
+    <video src="" width="320" height="240" controls preload="auto"> 
+        <source src="movie.mp4" type="vidio/mp4">
+        <source src="movie.ogg" type="vidio/ogg">
+        Your Browser does not support the vidio tag.
+    </video>
+
+    <audio src="" controls>
+        <source src="horse.ogg" type="audio/ogg">
+        <source src="horse.mpeg" type="audio/mpeg">
+        Your Browser does not support the audio elemet.
+    </audio>
+</body>
+</html>
