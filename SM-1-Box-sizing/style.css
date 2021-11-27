@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+
+p{
+    margin: 0;
+}
+
+.box{
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    display: grid;
+    align-items: center;
+    border-radius: 20px;
+}
+.box-1{
+    border: 2px solid red;
+    margin: 30px;
+    float: right;
+}
+
+.box-2{
+    border: 2px solid blue;
+    margin: 30px;
+    float: left;
+}
+
+/* seperator */
+
+.container{
+    width: 80vh;
+    height: 1000px;
+    margin: 200px auto;
+    background-color: aquamarine;
+    position: relative;
+}
+
+.square{
+    width: 200px;
+    height: 200px;
+}
+
+.square-1{
+    background-color: red;
+    position: relative;
+}
+
+.square-2{
+    background-color: blue;
+}
+
+.square-3{
+    background-color: cadetblue;
+    position: relative;
+    left: -600px;
+}
+
+.square-4 {
+    background-color: chartreuse;
+    position: absolute;
+    left: 100px;
+}
+
+.square-5 {
+    background-color: red;
+    position: absolute;
+    right: 0;
+    z-index: 5;
+}
+
+.POP-UP{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(34, 27, 130);
+    position: fixed;
+    z-index: 100;
+    bottom: 50px;
+    right: 50px;
+}
